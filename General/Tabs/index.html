@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <script type="module" src="js/index.mjs" async></script>
+    <title>Tabs - Vanillajs</title>
+</head>
+<body>
+    <header><h1>Simple APP that shows Tabs Creation</h1></header>
+    <main>
+        <section aria-describedby="Contains Tabs grouped as list that can be clicked" style="display: block;">
+            <!-- <button type="button" style="display: block;">Click to Add Tab</button> -->
+            <ul id="tabsContainer" class="section__tab-list">
+                <li>Tab1</li>
+                <li>Tab2</li>
+                <li>Tab3</li>
+                <li>Tab4</li>
+            </ul>
+        </section>
+
+        <section name="tabsContentContainer" aria-describedby="Contains Tab Items. Shows a particular content only when the respective tab is selected" style="display: block;">
+            <p id="tab1" hidden>
+                Content Tab 1
+            </p>
+            <p id="tab2" hidden>
+                Content Tab 2
+            </p>
+            <p id="tab3" hidden>
+                Content Tab 3
+            </p>
+            <p id="tab4" hidden>
+                Content Tab 4
+            </p>
+        </section>
+    </main>
+    
+</body>
+</html>

@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 2rem;
+}
+
+main > section {
+    min-width: 30%;
+    max-width: 30%;
+    margin: auto;
+}
+
+main ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+main ul > li {
+    flex-shrink: 0;
+    border: 0.1rem solid transparent;
+    padding: 1rem;
+    width: 7rem;
+    background-color: azure;
+    cursor: pointer;
+    color: gray;
+}
