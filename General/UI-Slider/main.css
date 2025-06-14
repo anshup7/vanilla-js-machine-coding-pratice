@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.slider-gutter {
+    display: block;
+    position: relative;
+    min-width: 20rem;
+    max-width: 50rem;
+    min-height: 2rem;
+    max-height: 2rem;
+    background-color: lightgray;
+    border: 0.1rem solid transparent;
+    border-radius: 1rem;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider-gutter__seek {
+    position: absolute;
+    background-color: blue;
+    min-height: 2rem;
+    min-width: 5%;
+}
+
+.slider-gutter__seek__knob {
+    min-height: 1.8rem;
+    min-width: 1.5rem;
+    background-color: lightsalmon;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 9999999;
+    right: 0;
+    transform: translate(50%);
+    cursor: pointer;
+}
