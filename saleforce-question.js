@@ -43,9 +43,9 @@ function groupByType(flatAr) {
     }, {});
 }
 
-// const flattened = deepFlatten([1, 'a', [true, ['b', undefined], [{} , null]], () => {}, Symbol('x')]);
+const flattened = deepFlatten([1, 'a', [true, ['b', undefined], [{} , null]], () => {}, Symbol('x')]);
 
-const flattened = deepFlatten([new Date(), new RegExp("abc"), {}]);
+// const flattened = deepFlatten([new Date(), new RegExp("abc"), {}]);
 
 
 console.log(flattened);
